@@ -1,0 +1,68 @@
+//Slider
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+
+h1 {
+   font-weight: 700;
+   font-size: 10em;
+   color: white;
+}
+
+h2{
+    font-size: 1em;
+}
+
+.wrapper {
+    font-family: 'Montserrat', sans-serif;
+    display: grid;
+    margin: 3em;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.slidecontainer {
+    margin-top: 17em;
+    width: 100%;
+}
+
+.radio-group{
+    padding-top: 2em;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 90%;
+    height: 1px;
+    border-radius: 0px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: #ffffff;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+}
+
+
