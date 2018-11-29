@@ -14,25 +14,6 @@
 
 	}
 
-	/*
-	function handleClick() {
-		activeHand = whichHand();
-		bgColour = activeHand.colour 
-	}
-
-	function whichHand(){
-		var hands = document.getElementsByName("hands")
-		var length = hands.length;
-
-		for (i=0, i<length, i++)
-		{
-			if(hands[i].checked){
-			activeHand = hands[i].id;
-			return activeHand;
-			}
-		}
-	}*/
-
 	
 
 
