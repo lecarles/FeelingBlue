@@ -1,0 +1,79 @@
+//Slider
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+
+
+h1, h2 {
+     font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+   font-weight: 700;
+   font-size: 4em;
+   color: white;
+   font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+    font-size: 1em;
+}
+
+.slidecontainer {
+    width: 100%;
+}
+
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 20px;
+    border-radius: 100px;
+    background: #f2f2f2;
+    outline: none;
+    opacity: 0.88;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.white::-webkit-slider-thumb{
+    background: #ccc;
+}
+
+.gray::-webkit-slider-thumb{
+    background: #848484;
+}
+
+.black::-webkit-slider-thumb{
+    background: #444;
+}
+
+.footer{
+    
+    color: rgba(255,255,255,0.5);
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: -3em;
+    line-height: 0.6;
+    font-size: 0.75em;
+    text-align: center;
+}
