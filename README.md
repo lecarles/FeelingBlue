@@ -56,7 +56,7 @@ The server isolates and stores in a string the value received via request from e
 
 ### Arduino
 
-The Arduino has to receive move three stepper motors from 0 to 360 degrees. The needles are supposed to be set on red manually (our reference hue = 0  value). These stepper motors are controlled by [One EasyDriver each] (http://www.schmalzhaus.com/EasyDriver/Examples/EasyDriverExamples.html).
+The Arduino has to receive move three stepper motors from 0 to 360 degrees. The needles are supposed to be set on red manually (our reference hue = 0  value). These stepper motors are controlled by [One EasyDriver each](http://www.schmalzhaus.com/EasyDriver/Examples/EasyDriverExamples.html).
 
 To control each motor separately and more easily, the [AccelStepper Library](http://www.airspayce.com/mikem/arduino/AccelStepper/) is used.
 
