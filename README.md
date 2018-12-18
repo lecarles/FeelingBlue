@@ -9,8 +9,7 @@ More about the project and it's narrative can be found at its Behance Page.
 
 3 needles move over the colour the user selects on a website, with a slider. Each needle has its own site and is theoretically designed to be used by a different user. The value received by the slider at the web, hosted locally, went to a ESP8266 , that passed the value via Software Serial Com to an Arduino, in charge of mapping this values and making three stepper motors move. 
 
-
-
+![Data Flow](https://github.com/lecarles/FeelingBlue/Images/greatscheme.PNG)
 
 I'll overview all of this and highlight some code snippets now.
 
