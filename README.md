@@ -2,11 +2,17 @@
 What shade of blue are you feeling?
 
 ## About the Project
-Behance link
+This is an artistic-experimental IoT prejoect developed as part as the "easy pieces" MP Project "On The Internet Nobody Knows you0re a toaster", at KISD. 
+More about the project and it's narrative can be found at its Behance Page.
 
 ## How it works
 
-3 needles move over the colour the user selects on a website, with a slider. Each needle has its own site and is theoretically designed to be used by a different user. 
+3 needles move over the colour the user selects on a website, with a slider. Each needle has its own site and is theoretically designed to be used by a different user. The value received by the slider at the web, hosted locally, went to a ESP8266 , that passed the value via Software Serial Com to an Arduino, in charge of mapping this values and making three stepper motors move. 
+
+
+
+
+I'll overview all of this and highlight some code snippets now.
 
 ### The Website
 
@@ -34,7 +40,7 @@ It was hosted on a local server powered by node.js. As WiFi network we used a li
 
 The ESP acts as a WiFi web server, using the code provided as an [example by Arduino](https://github.com/esp8266/Arduino/blob/master/libraries/ESP8266WiFi/examples/WiFiManualWebServer/WiFiManualWebServer.ino) as a basis.
 
-The server isolates and stores in a string the value received via request from each hand website, then adds a number so the Arduino can  identify from which hand it came (as I will explain next), and sends it via software serial to the arduino.
+The server isolates and stores in a string the value received via request from each hand website, then adds a number so the Arduino can  identify from which hand it came (as I will clarify later), and sends it via software serial to the arduino.
 
 ```
   if (req.indexOf("/hand1/") != -1) {
