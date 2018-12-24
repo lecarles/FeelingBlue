@@ -1,9 +1,19 @@
 # Feeling Blue
+
+```
+“I‘m feeling blue.”
+blue [bluː], adjective
+1. a color intermediate between green and violet
+2. melancholy, sad or depressed
+```
+
 What shade of blue are you feeling?
+
+![Clock of Feelings](https://mir-s3-cdn-cf.behance.net/project_modules/fs/b29a9673935765.5c1a727727e06.png)
 
 ## About the Project
 This is an artistic-experimental IoT prejoect developed as part as the "easy pieces" MP Project "On The Internet Nobody Knows you0re a toaster", at KISD. 
-More about the project and it's narrative can be found at its Behance Page.
+More about the project and it's narrative can be found at its [Behance Page](https://www.behance.net/gallery/73935765/Feeling-Blue).
 
 ## How it works
 
@@ -110,8 +120,11 @@ Inside the if, the string is converted to an integer and mapped - a 360 degree t
 
 ### Mechanical Overview
 
-The clock is moved by three stepper motors. Three concentric little metal tubes, each smaller than the other, are put together holding one needle each. The motors have a smaller wheel attached to them and bigger one is attached to these small metal tubes, creating, with the aid of rubberbands, a polley transmiting the movement to the needles.  
+The clock is moved by three stepper motors. Three concentric little metal tubes, each smaller than the other, are put together holding one needle each. The motors have a smaller wheel attached to them and bigger one is attached to these small metal tubes, creating, with the aid of rubberbands, a polley transmiting the movement to the needles. 
+
+![Mechanics](https://mir-s3-cdn-cf.behance.net/project_modules/1400/e3281473935765.5c1a7277266e5.png)
 
 The clock ended up being much wider than expected, and also heating up considerably (because of the stepper motors) - almost enough to guarantee liquid cooling as a feature if a second version was created.
 
+![Mechanics](https://mir-s3-cdn-cf.behance.net/project_modules/1400/21ea2773935765.5c1a7277262a4.png)
 
